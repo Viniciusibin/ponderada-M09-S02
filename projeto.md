@@ -25,7 +25,7 @@ O sistema é acessado via interface web e aplicativo móvel por usuários humano
 
 O diagrama abaixo define os tipos de elementos utilizados em todos os níveis do C4 Model neste documento.
 
-![Legenda do C4 Model](c5_legend.png)
+![Legenda do C4 Model](img/c5_legend.png)
 
 | Elemento | Cor | Descrição |
 |---|---|---|
@@ -43,7 +43,7 @@ O diagrama abaixo define os tipos de elementos utilizados em todos os níveis do
 
 O Diagrama de Contexto mostra o SIMGC como uma caixa preta no centro, identificando os atores humanos que o utilizam e os sistemas externos com os quais ele se comunica. O objetivo deste nível é responder: quem usa o sistema e com o que ele se integra?
 
-![Diagrama de Contexto — C4 Nível 1](c1_context.png)
+![Diagrama de Contexto — C4 Nível 1](img/c1_context.png)
 
 ### 4.1 Atores humanos
 
@@ -73,7 +73,7 @@ O SIMGC não é responsável por gerenciar protocolos IoT (responsabilidade do M
 
 O Diagrama de Containers abre o SIMGC e mostra as aplicações e bancos de dados que o compõem, com as tecnologias utilizadas em cada um e as responsabilidades de cada container.
 
-![Diagrama de Containers — C4 Nível 2](c2_container.png)
+![Diagrama de Containers — C4 Nível 2](img/c2_container.png)
 
 | Container | Tecnologia | Responsabilidade |
 |---|---|---|
@@ -90,7 +90,7 @@ O Diagrama de Containers abre o SIMGC e mostra as aplicações e bancos de dados
 
 O Diagrama de Componentes detalha o interior do container API Gateway, mostrando os componentes que o formam, suas responsabilidades e as relações entre eles e com os containers externos.
 
-![Diagrama de Componentes — C4 Nível 3](c3_component.png)
+![Diagrama de Componentes — C4 Nível 3](img/c3_component.png)
 
 | Componente | Tecnologia | Responsabilidade |
 |---|---|---|
@@ -106,7 +106,7 @@ O Diagrama de Componentes detalha o interior do container API Gateway, mostrando
 
 O Diagrama de Código mostra o diagrama de classes UML do componente `MonitoringController`, detalhando atributos, métodos e relacionamentos com as demais classes do pacote `com.simgc.monitoring`.
 
-![Diagrama de Código UML — C4 Nível 4](c4_code.png)
+![Diagrama de Código UML — C4 Nível 4](img/c4_code.png)
 
 ### 7.1 Descrição das classes
 
