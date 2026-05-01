@@ -27,6 +27,8 @@ O diagrama abaixo define os tipos de elementos utilizados em todos os níveis do
 
 ![Legenda do C4 Model](img/c5_legend.png)
 
+**Tabela 1. Legenda dos elementos do C4 Model**
+
 | Elemento | Cor | Descrição |
 |---|---|---|
 | Person | Azul escuro | Ator humano que interage com o sistema. |
@@ -47,12 +49,16 @@ O Diagrama de Contexto mostra o SIMGC como uma caixa preta no centro, identifica
 
 ### 4.1 Atores humanos
 
+**Tabela 2. Atores humanos do sistema**
+
 | Ator | Tipo | Descrição |
 |---|---|---|
 | Operador Agrícola | Pessoa | Usuário de campo que acessa o sistema para monitorar o estado das máquinas e receber alertas operacionais em tempo real. Utiliza a interface web ou o aplicativo móvel. |
 | Administrador de Configuração | Pessoa | Usuário técnico responsável por definir, alterar e acompanhar as configurações dos dispositivos e sistemas das máquinas. Tem acesso privilegiado ao painel de gestão. |
 
 ### 4.2 Sistemas externos
+
+**Tabela 3. Sistemas externos integrados ao SIMGC**
 
 | Sistema | Tipo | Descrição |
 |---|---|---|
@@ -75,6 +81,8 @@ O Diagrama de Containers abre o SIMGC e mostra as aplicações e bancos de dados
 
 ![Diagrama de Containers — C4 Nível 2](img/c2_container.png)
 
+**Tabela 4. Containers do SIMGC**
+
 | Container | Tecnologia | Responsabilidade |
 |---|---|---|
 | Web App | React.js | Interface de monitoramento acessada via navegador. Exibe dashboards, alertas e permite interações de configuração. |
@@ -91,6 +99,8 @@ O Diagrama de Containers abre o SIMGC e mostra as aplicações e bancos de dados
 O Diagrama de Componentes detalha o interior do container API Gateway, mostrando os componentes que o formam, suas responsabilidades e as relações entre eles e com os containers externos.
 
 ![Diagrama de Componentes — C4 Nível 3](img/c3_component.png)
+
+**Tabela 5. Componentes do API Gateway**
 
 | Componente | Tecnologia | Responsabilidade |
 |---|---|---|
@@ -123,6 +133,8 @@ O Diagrama de Código mostra o diagrama de classes UML do componente `Monitoring
 ---
 
 ## 8. Fluxos de informação
+
+**Tabela 6. Fluxos de informação do sistema**
 
 | De | Para | Descrição | Tipo |
 |---|---|---|---|
