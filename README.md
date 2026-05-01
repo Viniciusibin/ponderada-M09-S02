@@ -1,1 +1,0 @@
-# ponderada-M09-S02
